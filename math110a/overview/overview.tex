@@ -1,0 +1,36 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\title{Math 110A Overview}
+\author{Joseph Wallace}
+\date{6 October 2020}
+
+\begin{document}
+    
+    \maketitle
+
+    \section{Arithmetic in $\mathbb{Z}$ Revisited}
+
+    \subsection{Division Algorithm}
+    Division can be conceptualized as how many times a specified sized chunk (the divisor) can be taken out of a number (the dividend).
+    The number of times the divisor is taken out of the dividend is known as the quotient.
+    The division algorithm is a mathematical way to describe this process.
+    \begin{theorem}[Division Algorithm]
+        Let a,b be integers with $b>0$. Then there exists unique integers $q$ and $r$ such that
+        \begin{equation*}
+            a=bq+r \qquad \textrm{and} \qquad 0 \leq r < b
+        \end{equation*}
+    \end{theorem}
+    What this says is that $a$ can be represented as an integer multiple of $b$, with some $r$ left over.
+    We have $0 \leq r < b$ because for negative $r$, there are many combinations of $q$ and $r$ that may satisfy the equation.
+
+    \subsection{Divisibility}
+    
+\end{document}
